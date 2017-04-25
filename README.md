@@ -1,6 +1,6 @@
 # The Next Version of JavaScript (ES6)
 
-[Table of Contents](toc.md)
+[Table of Content](toc.md)
 
 * [ES6 ?](es6.md)
 * [Support for constants](const.md)
@@ -15,4 +15,4 @@
 * [Iterators](iterators.md)
 * [Map/Set](mapSet.md)
 * [Promises](promises.md)
-* [Map/Set](mapSet.md)
+* [New Methods](newMethods.md)
