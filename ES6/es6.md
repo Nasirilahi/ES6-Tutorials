@@ -1,0 +1,1 @@
+ ECMAScript (ES) is a scripting language specification standardized by ECMAScript International.
