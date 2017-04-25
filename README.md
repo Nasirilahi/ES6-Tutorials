@@ -2,6 +2,7 @@
 
 [Table of Contents](toc.md)
 
+* [ES6 ?](es6.md)
 * [Support for constants](const.md)
 * [Block Scope](blockScoping.md)
 * [Arrow Functions](arrowFunction.md)
