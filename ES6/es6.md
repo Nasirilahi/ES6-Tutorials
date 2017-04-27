@@ -2,7 +2,7 @@
 
 
 ### History 
- ECMAScript (ES) was created to standardize javascript. Its latest version is 7 published in to june 2016.Ecmascript initially was known as *Mocha* and it is now also known as 
+ ECMAScript (ES) was created to standardize javascript. Its latest version is 7 published in to june 2016.Ecmascript initially was known as *Mocha* and it is now also known as ES.next and Hormany.
 
  #### Versions 
 
