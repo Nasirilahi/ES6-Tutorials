@@ -8,7 +8,8 @@
 
  Below is the list of showing all versions of ECMAScript. 
 
- **Edition**        **Published Date**          **Changes from prior version**
+ **Edition**   |     **Published Date**     |     **Changes from prior version**
+---------------|----------------------------|-----------------------------------
  1                      June 1997               First edition 
  2                      June 1998               Only Editorial Changes
  3                      December 1999           Added :- 
