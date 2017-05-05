@@ -92,7 +92,7 @@ let a = 10;
 let b = 20;
 const c = 30;
 ```
-and if we try to **update or re-declare any of this variable we will get error.**
+and if we try to **update or re-declare any of this variable we will get error**
 ```js
 let a = 30 // error here **duplication declaration**
 ```
