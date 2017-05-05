@@ -85,7 +85,7 @@ if(age > 12) {
 }
 console.log(dogYears); // error because it's scoped only to the above block
 ```
-So now we need to remember that ** We can declare variables only in its scope.**
+So now we need to remember that **We can declare variables only in its scope**
 lets we have declared the following variables :- 
 ```js
 let a = 10; 
