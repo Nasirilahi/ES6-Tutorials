@@ -4,7 +4,9 @@
 
 * [What is ES6?](ES6/es6.md)
 * [Variables (var, let, const)](const-let/const-let.md)
-* [Playing with function](arrowFunction.md)
+* [Destructor Operator](destructorOperator.md)
+* [Spread Operator](spreadOperator.md)
+* [Arrow Function](arrowFunction.md)
 * [Template String](TemplateString.md)
 * [Object Properties](ObjectProperties.md)
 * [Modules](modules.md)
