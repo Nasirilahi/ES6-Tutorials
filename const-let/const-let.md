@@ -85,3 +85,36 @@ if(age > 12) {
 }
 console.log(dogYears); // error because it's scoped only to the above block
 ```
+So now we need to remember that ** We can declare variables only in its scope.**
+lets we have declared the following variables :- 
+```
+let a = 10; 
+let b = 20;
+const c = 30;
+```
+and if we try to **update or re-declare any of this variable we will get error.**
+```
+let a = 30 // error here **duplication declaration**
+```
+again working back setWidth function and declaring variables using let/const in that 
+```
+function setWidth() {
+  let width = 100;
+   if(width === 100){
+      let height = width * 2;
+      console.log('width',width);     // both variable will be available here 
+      console.log('height', height);
+   }
+   console.log('width',width);
+   console.log('height', height); // height will be undefined here because its scoped only in if statement.
+}
+setWidth();
+```
+#### const keyword 
+const keyword has the same block scope as let keyword but there difference is:- 
+**const variable can not be updated.**
+const variables are *read only*.
+```
+const myVar = 10;
+myVar = 30;  //myVar is read-only
+```
