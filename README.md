@@ -3,8 +3,7 @@
 [Table of Content](toc.md)
 
 * [What is ES6?](ES6/es6.md)
-* [const/let variables](const-let/const-let.md)
-* [Block Scope](blockScoping.md)
+* [Variables (var, let, const)](const-let/const-let.md)
 * [Arrow Functions](arrowFunction.md)
 * [Function Parameters Handling](parameters.md)
 * [Template String](TemplateString.md)
