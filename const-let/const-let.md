@@ -85,6 +85,3 @@ if(age > 12) {
 }
 console.log(dogYears); // error because it's scoped only to the above block
 ```
-
-
-
