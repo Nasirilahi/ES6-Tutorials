@@ -61,3 +61,30 @@ if(age > 120) {
 ```
 however **years** is a temporary variable and is being used only in if statement so if this code statement is in function then it will be in that function scope otherwise it will be in global scope and it is getting leak outside the if statement so **let** and const will be usefull.
 
+### block scope 
+So whenever we find any starting **{** and a closing **}** its a block. It can be with be a function, loop statment or conditional statement. 
+
+```
+// variables declared here will be in global scope.
+function myFunction(){
+// variables declared here will be in function block scope.
+
+if(){
+// scope only in if statement and will be undefined outside this if statement.
+}
+}
+```
+## let and const 
+In ES6 we can declared variables using **let** and **const** variables declared using these will be in block scope not like function as with **var** variables.
+
+```
+var age = 100;
+if(age > 12) {
+  let dogYears = age * 7;
+  console.log(`You are ${dogYears} dog years old!`);
+}
+console.log(dogYears); // error because it's scoped only to the above block
+```
+
+
+
