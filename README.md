@@ -9,7 +9,7 @@
 * [New in functions](Functions/functions.md)
 * [Arrow Function](Arrow-Function/arrow-function.md)
 * [Template String](Template-literals/template-literals.md)
-* [Object Properties](ObjectProperties.md)
+* [Object literals enhancemen](ObjectProperties.md)
 * [Modules](modules.md)
 * [Classes](classes.md)
 * [Symbol](symbol.md)

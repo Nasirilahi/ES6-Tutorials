@@ -7,7 +7,7 @@ Template string also known as Template Literals.Following are the features of Te
 3. String interpolation
 
 Syntax 
-
+```js
 `string text`
 
 `string text line 1
@@ -16,7 +16,7 @@ Syntax
 `string text ${expression} string text`
 
 tag `string text ${expression} string text`
-
+```
 In ES6 there are two literals
 1. Template literals ( Template string )
 2. Tagged template literals (function calls)
