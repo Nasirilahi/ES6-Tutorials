@@ -35,13 +35,33 @@ myFunction(-1, ...args, 2, ...[3]);
 ## Spread operator with array literal
 Spread operator is used for new array construction from an existing array. Without spread operator creating new array will be complicated and have to use push, slice functions, But with spread operator it will be very easy.
 
+Create an array with initial elements from another array 
+```js
+var initial = [0, 1];  
+var numbers1 = [...initial, 5, 7];  
+console.log(numbers1); // => [0, 1, 5, 7]  
+let numbers2 = [4, 8, ...initial];  
+console.log(numbers2);
+```
 
+Concatenating array from two another arrays
 ```js
 let cold = ['autumn', 'winter'];  
 let warm = ['spring', 'summer']; 
-let weather = [...cold, ...warm ];
+let weather = [...cold, ...warm ]; // a better way to concatenate array
 console.log(weather);
 ```
 
 
 **Note:** :Just like spread for argument lists, ... can be used anywhere in the array literal and it can be used multiple times.
+
+Copy an array
+
+```js
+var arr = [1, 2, 3];
+var arr2 = [...arr]; // like arr.slice()
+arr2.push(4); 
+
+// arr2 becomes [1, 2, 3, 4]
+// arr remains unaffected
+```
