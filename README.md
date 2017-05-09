@@ -7,7 +7,7 @@
 * [Destructor Operator](Destructor/destructorOperator.md)
 * [Spread Operator](Spread-Operator/spreadOperator.md)
 * [New in functions](Functions/functions.md)
-* [Arrow Function](arrowFunction.md)
+* [Arrow Function](Arrow-function/arrowFunction.md)
 * [Template String](TemplateString.md)
 * [Object Properties](ObjectProperties.md)
 * [Modules](modules.md)
@@ -16,4 +16,3 @@
 * [Iterators](iterators.md)
 * [Map/Set](mapSet.md)
 * [Promises](promises.md)
-* [New Methods](newMethods.md)
