@@ -8,7 +8,7 @@
 * [Spread Operator](Spread-Operator/spreadOperator.md)
 * [New in functions](Functions/functions.md)
 * [Arrow Function](Arrow-Function/arrow-function.md)
-* [Template String](TemplateString.md)
+* [Template String](Template-literals/template-literals.md)
 * [Object Properties](ObjectProperties.md)
 * [Modules](modules.md)
 * [Classes](classes.md)
