@@ -11,7 +11,7 @@
 * [Template String](Template-literals/template-literals.md)
 * [Object literals enhancement](Object-literal-enhancement/object-literal-enhancement.md)
 * [Module System](Modules/modules.md)
-* [Classes](classes.md)
+* [Class](Class/class.md)
 * [Symbol](symbol.md)
 * [Iterators](iterators.md)
 * [Map/Set](mapSet.md)
