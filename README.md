@@ -4,7 +4,7 @@
 
 * [What is ES6?](ES6/es6.md)
 * [Variables (var, let, const)](const-let/const-let.md)
-* [Destructor Operator](Destructoring/destructorOperator.md)
+* [Destructor Operator](Destructoring/destructoring.md)
 * [Spread Operator](Spread-Operator/spreadOperator.md)
 * [New in functions](Functions/functions.md)
 * [Arrow Function](Arrow-Function/arrow-function.md)
