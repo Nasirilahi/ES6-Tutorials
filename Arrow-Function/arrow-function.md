@@ -22,13 +22,11 @@ The following variables are all lexical inside arrow functions:
     * arguments
     * super
     * this
-    * new.target
 
 Two factors were the reason of introducing **arrow function** : 
 1. Shorter syntax
 2. non-binding of **this**
 
-1. Shorter syntax
 
 Regular function 
 ```js
