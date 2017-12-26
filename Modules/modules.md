@@ -68,6 +68,5 @@ import {map as googleMap} from 'google-map';
 ### Importing all the modules 
 ```js
 import * as _ from 'lodash';
-_.reduce(arrVar);
 ```
 
