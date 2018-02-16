@@ -13,6 +13,6 @@
 * [Module System](Modules/modules.md)
 * [Class](Class/class.md)
 * [Symbol](symbol.md)
-* [Iterators](iterators.md)
+* [Iterators](Iterators/iterators.md)
 * [Map/Set](mapSet.md)
 * [Promises](promises.md)
