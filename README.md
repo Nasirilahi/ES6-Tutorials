@@ -12,7 +12,7 @@
 * [Object literals enhancement](Object-literal-enhancement/object-literal-enhancement.md)
 * [Module System](Modules/modules.md)
 * [Class](Class/class.md)
-* [Symbol](symbol.md)
+* [Symbol](Symbols/symbols.md)
 * [Iterators](Iterators/iterators.md)
 * [Map/Set](mapSet.md)
 * [Promises](promises.md)
