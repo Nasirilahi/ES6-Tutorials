@@ -7,21 +7,22 @@ Once created, an iterator object can be used by successively calling next()
 
 ```js
 function makeIterator(array){
-    var nextIndex = 0;
+    let nextIndex = 0;
     return {
-    next: function() {
-       return nextIndex < array.length ?
+    next() {
+       const length = array.length;
+       return nextIndex < length ?
               {value: array[nextIndex++], done: false} :
               {done: true};
        }
     };
 }
 
-let Iterator = makeIterator([1,2,3])
+let iterator = makeIterator([1,2,3])
 
-console.log(Iterator.next())
-console.log(Iterator.next())
-console.log(Iterator.next())
+console.log(iterator.next())
+console.log(iterator.next())
+console.log(iterator.next())
 
 ```
 
@@ -38,7 +39,7 @@ Es6 introduced a new syntax for dealing with iterables objects that is for...of 
  }
 
 ```js
-var words = ["abc", "xyz", "aaaa"];
+const words = ["abc", "xyz", "aaaa"];
 
 for(let word of words.entries()){
 console.log(word)
@@ -51,5 +52,70 @@ console.log(word)
 for(let word of words.keys()){
 console.log(word)
 }
-
 ```
+
+
+## Making an object iterable 
+
+By default only those collection which are iterable can be iterated using for...of loop. What about Object? They are not iterable but we can make them iterable too. (PS:- **strings are iterable**)
+
+Let say we have following object and what happens if try to iterate it:- 
+
+```js
+const range = {
+  from: 1,
+  to: 5s
+};
+
+for(let num of range) {
+ console.log(num);
+}
+```
+
+It will throw an error as:- 
+
+```js
+Uncaught TypeError: range is not iterable
+```
+
+So now let's make it iterable too. 
+
+
+#### Symbol.iterator
+
+We can easily grasp the concept of iterables by making one of our own. For instance, we have an object that is not an array, but looks suitable for for..of like range object above. 
+
+To make the range object iterable *(and thus let `for..of` work)* we need to add a method to the object named **`Symbol.iterator`**. Now let's understand how this works:-  
+
+1. When `for...of` runs, it will call the `Symbol.iterator` function only once which return an object.
+2. Now `for...of` will only work with returned object. 
+3. Return object must contain function named as ***`next()`***.
+4. This `next()` function must return another object of the for of `{done: Boolean, value: any}`, where `done` key will have value as `true/false` depending upon the iteration, so if it's `false` then it `value` key will consist value otherwise `done` is `true` and iteration is finished. 
+
+Here it is implementation:- 
+
+```js
+const range = {
+  from: 1,
+  to: 5,
+  [Symbol.iterator]() {
+    return {
+      current: this.from,
+      last: this.to,
+       next() {
+         if (this.current <= this.last) {
+           return { done: false, value: this.current++ };
+          } else {
+            return { done: true };
+          }
+      }
+    }
+  }, 
+};
+```
+
+now it works!
+```js
+for (let num of range) {
+  console.log(num); // 1, 2, 3, 4, 5
+}
