@@ -14,5 +14,5 @@
 * [Class](Class/class.md)
 * [Symbol](Symbols/symbols.md)
 * [Iterators](Iterators/iterators.md)
-* [Map/Set](mapSet.md)
-* [Promises](promises.md)
+<!-- * [Map/Set](mapSet.md) -->
+<!-- * [Promises](promises.md) -->
