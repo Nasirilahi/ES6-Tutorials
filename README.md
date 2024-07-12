@@ -23,15 +23,11 @@ Welcome to the ES6 Tutorials repository! This repository aims to guide you throu
 - [Class](Class/class.md)
 - [Symbol](Symbols/symbols.md)
 - [Iterators](Iterators/iterators.md)
-
-<!-- Uncomment the following sections as they are completed or added -->
-<!--
 - [Generators](Generators/generators.md)
 - [Map/Set](MapSet/mapSet.md)
 - [WeakMap/WeakSet](WeakmapWeakSet/weakmapWeakSet.md)
 - [Promises](Promises/promises.md)
 - [New Built-In Methods](BuiltIn-Methods/methods.md)
--->
 
 ## Introduction
 
