@@ -33,6 +33,21 @@ Welcome to the ES6 Tutorials repository! This repository aims to guide you throu
 
 ES6 (ECMAScript 2015) introduced several new features and syntax enhancements to JavaScript, making it more powerful and expressive. This repository breaks down each feature with clear explanations and practical examples to help you understand and utilize ES6 effectively.
 
+
+## Features Overview
+
+| Feature                         | Description                                                                            | Example                                                                                  |
+|---------------------------------|----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| **Destructuring**         | Unpack values from arrays or properties from objects into distinct variables.           | `const { name, age } = person;`                                                          |
+| **Template Literals**     | Multiline strings and embedded expressions.                                            | `` const greeting = `Hello, ${name}!`; ``                                                |
+| **Spread Operator**       | Expand iterable elements or arguments.                                                 | `const arr2 = [...arr1, 4, 5, 6];`                                                       |
+| **Promises**              | Handle asynchronous operations.                                                        | `new Promise((resolve, reject) => { ... });`                                             |
+| **Async/Await)**           | Cleaner promise-based asynchronous code.                                               | `async function fetchData() { ... }`                                                     |
+| **Modules**               | Modularize code by exporting and importing.                                            | `import { add } from './utils.js';`                                                      |
+| **Generators**            | Functions that can be paused and resumed.                                              | `function* generator() { yield 'Hello'; yield 'World'; }`                                |
+
+
+
 ## Usage
 
 To explore each topic, simply navigate to the corresponding markdown file in the Table of Contents above. Each file contains explanations, code snippets, and sometimes exercises to reinforce your understanding.
