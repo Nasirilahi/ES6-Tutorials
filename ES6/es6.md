@@ -1,17 +1,12 @@
- # What is ES6 ?
+ # What is EcmaScript and its major versions releases ?
 
 
 ### History 
 ECMAScript (commonly abbreviated to ES) was created to standardize javascript.Over the years, multiple versions have been released, each introducing new features to make code more readable, concise, and easier to maintain. This repository covers the essential features from ES6 to ES13, including explanations, examples, and interactive code samples.
 
-### ES6 Goals
-1. Complex Applications
-2. Libraries
-3. Code Generators
 
  #### Versions 
-
- Below is the list of showing all versions of ECMAScript. 
+ Below is the list of showing all versions of ECMAScript and some major versions introduced in these versions. 
 
  **Edition**   |     **Published Date**     |     **Changes from prior version**
 :-------------:|:--------------------------:|---------------------------------
