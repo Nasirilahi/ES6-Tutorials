@@ -2,7 +2,7 @@
 
 
 ### History 
- ECMAScript (ES) was created to standardize javascript. Its latest version is 7 published in to june 2016.Ecmascript initially was known as *Mocha* and it is now also known as ES.next and Hormany.
+ECMAScript (commonly abbreviated to ES) was created to standardize javascript.Over the years, multiple versions have been released, each introducing new features to make code more readable, concise, and easier to maintain. This repository covers the essential features from ES6 to ES13, including explanations, examples, and interactive code samples.
 
 ### ES6 Goals
 1. Complex Applications
@@ -26,6 +26,10 @@
 8             |          June 2017 |     Known as ECMAScript 2017 (ES8). It includes the :- <br><ul><li>Async/Await</li><li> Object entries</li><li> Object Values</li> <li> string padding</li></ul>
 9             |          June 2018 |     Known as ECMAScript 2018 (ES9). It includes the :- <br><ul><li>Async Iteration</li><li>Rest/Spread propertie</li></ul>
 10             |          June 2019 |    ECMAScript 2019 (ES10). It includes the :- <br><ul><li>Array flat</li><li>Array flatMap</li> <li>Array flatMap</li> <li>String trimStart</li> <li>String trimEnd</li></ul>
+11             |          June 2020 |    ECMAScript 2020 (ES11). It includes the :- <br><ul><li>Optional Chaining</li><li>Nullish Coalescing</li> <li>Dynamic Import</li> <li>BigInt</li> <li>Promise.allSettled</li><li>GlobalThis</li> </ul>
+12             |          June 2021 |    ECMAScript 2021 (ES12). It includes the :- <br><ul><li>Private Class Fields</li> <li>Numeric Separators</li> <li>String.prototype.replaceAll</li> <li>WeakRefs</li> <li>FinalizationRegistry</li> </ul>
+13             |          June 2022 |    ECMAScript 2022 (ES13). It includes the :- <br><ul><li>Top-level await</li> <li>Private Methods and Accessors</li> <li>Ergonomic brand checks for Private Fields</li></ul>
+14             |          June 2023 |    ECMAScript 2023 (ES14). It includes the :- <br><ul><li>Array findFromLast</li> <li>Array findFromLastIndex</li> <li>Import Assertions</li></ul>
 
 ### ES6 (2015)
 
