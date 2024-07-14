@@ -11,7 +11,7 @@ Welcome to the ES6 Tutorials repository! This repository aims to guide you throu
 
 ## Table of Contents
 
-- [What is ES6?](ES6/es6.md)
+- [What is EcmaScript and it's major versions?](ES6/es6.md)
 - [Variables (var, let, const)](const-let/const-let.md)
 - [Destructuring Assignment](Destructoring/destructoring.md)
 - [Spread Operator](Spread-Operator/spreadOperator.md)
